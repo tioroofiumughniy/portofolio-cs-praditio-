@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <svg viewBox="0 0 167.5 167.5" class="spotify-logo">
+                    <path fill="#ffffff" d="M83.7,0C37.5,0,0,37.5,0,83.7s37.5,83.7,83.7,83.7s83.7-37.5,83.7-83.7S130,0,83.7,0z M122,120.8 c-1.5,2.4-4.5,3.2-6.9,1.7c-19.1-11.7-43.2-14.3-71.5-7.9c-2.7,0.6-5.5-1.1-6.1-3.8c-0.6-2.7,1.1-5.5,3.8-6.1 c31.1-7.1,57.7-4,79,9.1C122.7,115.3,123.5,118.4,122,120.8z M132.3,98.1c-1.9,3.1-5.8,4-8.9,2.2C102,87.4,67.5,83.3,40.5,91.5 c-3.5,1.1-7.2-0.9-8.3-4.4c-1.1-3.5,0.9-7.2,4.4-8.3c30.8-9.4,69-4.8,93.5,10.3C133.2,91.1,134.1,95,132.3,98.1z M133.1,74.5 c-23-13.7-61-15-83.2-8.2c-3.5,1.1-7.2-0.9-8.3-4.4s0.9-7.2,4.4-8.3c25.5-7.7,67.5-6.2,94.1,9.6c3.2,1.9,4.2,6,2.3,9.1 C140.4,75.5,136.3,76.5,133.1,74.5z"/>
+                </svg>
+                <span class="logo-text">Spotify</span>
+            </div>
+        </header>
+
+        <main class="login-box">
+            <h1>Untuk lanjut, masuk ke Spotify.</h1>
+            
+            <div class="social-login">
+                <button class="btn btn-facebook">Lanjutkan dengan Facebook</button>
+                <button class="btn btn-apple">Lanjutkan dengan Apple</button>
+                <button class="btn btn-google">Lanjutkan dengan Google</button>
+                <button class="btn btn-phone">Lanjutkan dengan nomor telepon</button>
+            </div>
+
+            <div class="divider">
+                <span>atau</span>
+            </div>
+
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email">Alamat email atau nama pengguna</label>
+                    <input type="text" id="email" placeholder="Alamat email atau nama pengguna">
+                </div>
+                <div class="form-group">
+                    <label for="password">Kata sandi</label>
+                    <input type="password" id="password" placeholder="Kata sandi">
+                </div>
+                
+                <a href="#" class="forgot-password">Lupa kata sandi Anda?</a>
+
+                <div class="form-footer">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Ingat saya</label>
+                    </div>
+                    <button type="submit" class="btn btn-login">MASUK</button>
+                </div>
+            </form>
+
+            <hr>
+
+            <div class="signup-section">
+                <h2>Jangan punya akun?</h2>
+                <button class="btn btn-signup">MENDAFTAR KE SPOTIFY</button>
+            </div>
+        </main>
+
+        <footer class="security-warning">
+            <div class="warning-content">
+                <p>⚠️ <strong>Peringatan Keamanan:</strong> Halaman ini adalah simulasi edukasi keamanan cyber. Perhatikan URL sebelum memasukan data sensitif.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
